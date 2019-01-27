@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutofacTest.IServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AutofacTest.Controllers
@@ -10,10 +11,16 @@ namespace AutofacTest.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private ITest _test;
+        public ValuesController(ITest test)
+        {
+            _test = test;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            _test.SendMessage();
             return new string[] { "value1", "value2" };
         }
 

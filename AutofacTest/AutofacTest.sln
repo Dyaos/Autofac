@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacTest", "AutofacTest\AutofacTest.csproj", "{84C294CE-E00D-43CD-A709-A3F223D7AEF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacTest.Services", "AutofacTest.Services\AutofacTest.Services.csproj", "{E994D8AC-ACF3-4280-8A70-F62F6BBD5F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacTest.IServices", "AutofacTest.IServices\AutofacTest.IServices.csproj", "{C7812650-43B7-45A3-B3F8-D6A450F52EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{84C294CE-E00D-43CD-A709-A3F223D7AEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C294CE-E00D-43CD-A709-A3F223D7AEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C294CE-E00D-43CD-A709-A3F223D7AEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E994D8AC-ACF3-4280-8A70-F62F6BBD5F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E994D8AC-ACF3-4280-8A70-F62F6BBD5F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E994D8AC-ACF3-4280-8A70-F62F6BBD5F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E994D8AC-ACF3-4280-8A70-F62F6BBD5F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7812650-43B7-45A3-B3F8-D6A450F52EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7812650-43B7-45A3-B3F8-D6A450F52EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7812650-43B7-45A3-B3F8-D6A450F52EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7812650-43B7-45A3-B3F8-D6A450F52EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

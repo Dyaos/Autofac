@@ -9,8 +9,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Configuration" Version="4.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutofacTest.IServices\AutofacTest.IServices.csproj" />
+    <ProjectReference Include="..\AutofacTest.Services\AutofacTest.Services.csproj" />
   </ItemGroup>
 
 </Project>
